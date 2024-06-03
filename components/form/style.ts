@@ -12,11 +12,10 @@ const Styles = StyleSheet.create({
         width: '90%',
         height: 'auto',
         paddingLeft: 10,
-        paddingTop: 10
+        paddingTop: 15
     },
     InputBox:{
         padding: 10,
-        marginBottom: 20,
         backgroundColor: '#F0F0F0',
     },
     InputText:{
@@ -40,7 +39,8 @@ const Styles = StyleSheet.create({
     },
     labelError:{
         fontSize: 12,
-        color:'red'
+        paddingBottom: 25
+
     }
 })
 

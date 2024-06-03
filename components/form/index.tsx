@@ -43,7 +43,7 @@ const form = () =>{
             )}
             name="email"
         />
-      {errors.email && <Text style={{color: 'red'}}>Campo obrigatório</Text>}
+      {errors.email && <Text style={Styles.labelError}>Campo obrigatório</Text>}
 
       <Controller
             control={control}
