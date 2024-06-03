@@ -1,10 +1,15 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
 import SignIn from "@/pages/SignIn";
+import Styles from './style'
 
 export default function Index() {
   return (
-    <View>
+    <View style={Styles.container}>
       <SignIn></SignIn>
     </View>
   );
   }
+
+
+
+

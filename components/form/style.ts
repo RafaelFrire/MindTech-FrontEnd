@@ -4,21 +4,20 @@ import { StyleSheet } from "react-native";
 
 const Styles = StyleSheet.create({
     formContainer:{
-        backgroundColor: '#F5F5F5',
         color: 'black',
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
     },
     formContext:{
         width: '90%',
         height: 'auto',
         paddingLeft: 10,
-        paddingTop: 30
+        paddingTop: 10
     },
     InputBox:{
         padding: 10,
         marginBottom: 20,
-        backgroundColor: 'white'
+        backgroundColor: '#F0F0F0',
     },
     InputText:{
         fontSize: 14,
@@ -29,9 +28,20 @@ const Styles = StyleSheet.create({
         justifyContent: 'center',
         elevation: 3,
         paddingVertical: 12,
-        backgroundColor: 'black',
-        borderRadius: 4,
+        backgroundColor: '#F97069',
+        borderRadius: 50,
         color: 'white'
+    },
+    label:{
+        textAlign: 'center',
+        margin: 15,
+        fontSize: 15,
+        color: 'black'
+    },
+    textButton:{
+        color:'white',
+        fontWeight: '900',
+        fontSize: 18
     }
 })
 
