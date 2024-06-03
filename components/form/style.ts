@@ -38,10 +38,9 @@ const Styles = StyleSheet.create({
         fontSize: 15,
         color: 'black'
     },
-    textButton:{
-        color:'white',
-        fontWeight: '900',
-        fontSize: 18
+    labelError:{
+        fontSize: 12,
+        color:'red'
     }
 })
 
